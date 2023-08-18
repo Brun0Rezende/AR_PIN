@@ -29,7 +29,8 @@ class Cadastro extends StatelessWidget {
             width: double.infinity,
             child: Container(
               // cadastrarQRV (108:15)
-              padding: EdgeInsets.fromLTRB(73 * fem, 150 * fem, 73 * fem, 40 * fem),
+              padding:
+                  EdgeInsets.fromLTRB(73 * fem, 150 * fem, 73 * fem, 40 * fem),
               width: double.infinity,
               decoration: BoxDecoration(
                 color: Color(0xffffffff),
@@ -48,13 +49,15 @@ class Cadastro extends StatelessWidget {
                   ),
                   Container(
                     // autogroupbwnsdp3 (4s1qNcYHkGgfrXgBzfbWns)
-                    margin: EdgeInsets.fromLTRB(158 * fem, 0 * fem, 162 * fem, 0 * fem),
+                    margin: EdgeInsets.fromLTRB(
+                        158 * fem, 0 * fem, 162 * fem, 0 * fem),
                     width: double.infinity,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          margin: EdgeInsets.fromLTRB(20 * fem, 0 * fem, 15 * fem, 20 * fem),
+                          margin: EdgeInsets.fromLTRB(
+                              20 * fem, 0 * fem, 15 * fem, 20 * fem),
                           child: RichText(
                             textAlign: TextAlign.center,
                             text: TextSpan(
@@ -85,7 +88,8 @@ class Cadastro extends StatelessWidget {
                         ),
                         Container(
                           // porqueensinarnoapenastransmiti (108:40)
-                          margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 50 * fem),
+                          margin: EdgeInsets.fromLTRB(
+                              0 * fem, 0 * fem, 0 * fem, 50 * fem),
                           child: Text(
                             'Porque ensinar não é apenas transmitir conhecimento!',
                             textAlign: TextAlign.center,
@@ -102,7 +106,8 @@ class Cadastro extends StatelessWidget {
                   ),
                   Container(
                     // group3Aqu (108:39)
-                    margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 51 * fem),
+                    margin: EdgeInsets.fromLTRB(
+                        0 * fem, 0 * fem, 0 * fem, 51 * fem),
                     width: double.infinity,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(50 * fem),
@@ -112,7 +117,8 @@ class Cadastro extends StatelessWidget {
                       children: [
                         Container(
                           // criesuacontaGe3 (109:42)
-                          margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 34 * fem),
+                          margin: EdgeInsets.fromLTRB(
+                              0 * fem, 0 * fem, 0 * fem, 34 * fem),
                           child: Text(
                             'Crie sua Conta',
                             textAlign: TextAlign.center,
@@ -126,7 +132,8 @@ class Cadastro extends StatelessWidget {
                         ),
                         Container(
                           // autogroup7lg7Nwy (4s1qfgtAvLocVATaFD7LG7)
-                          margin: EdgeInsets.fromLTRB(1 * fem, 0 * fem, 0 * fem, 18 * fem),
+                          margin: EdgeInsets.fromLTRB(
+                              1 * fem, 0 * fem, 0 * fem, 18 * fem),
                           width: 893 * fem,
                           height: 114 * ffem,
                           decoration: BoxDecoration(
@@ -141,7 +148,8 @@ class Cadastro extends StatelessWidget {
                               enabledBorder: InputBorder.none,
                               errorBorder: InputBorder.none,
                               disabledBorder: InputBorder.none,
-                              contentPadding: EdgeInsets.fromLTRB(25 * fem, 0 * fem, 0 * fem, 15 * fem),
+                              contentPadding: EdgeInsets.fromLTRB(
+                                  25 * fem, 0 * fem, 0 * fem, 15 * fem),
                               hintText: 'Nome de Usuario',
                               hintStyle: TextStyle(color: Color(0xff000000)),
                             ),
@@ -155,7 +163,8 @@ class Cadastro extends StatelessWidget {
                         ),
                         Container(
                           // autogroup7lg7Nwy (4s1qfgtAvLocVATaFD7LG7)
-                          margin: EdgeInsets.fromLTRB(1 * fem, 0 * fem, 0 * fem, 18 * fem),
+                          margin: EdgeInsets.fromLTRB(
+                              1 * fem, 0 * fem, 0 * fem, 18 * fem),
                           width: 893 * fem,
                           height: 114 * ffem,
                           decoration: BoxDecoration(
@@ -170,7 +179,8 @@ class Cadastro extends StatelessWidget {
                               enabledBorder: InputBorder.none,
                               errorBorder: InputBorder.none,
                               disabledBorder: InputBorder.none,
-                              contentPadding: EdgeInsets.fromLTRB(25 * fem, 0 * fem, 0 * fem, 15 * fem),
+                              contentPadding: EdgeInsets.fromLTRB(
+                                  25 * fem, 0 * fem, 0 * fem, 15 * fem),
                               hintText: 'Email',
                               hintStyle: TextStyle(color: Color(0xff000000)),
                             ),
@@ -184,7 +194,8 @@ class Cadastro extends StatelessWidget {
                         ),
                         Container(
                           // autogroup7lg7Nwy (4s1qfgtAvLocVATaFD7LG7)
-                          margin: EdgeInsets.fromLTRB(1 * fem, 0 * fem, 0 * fem, 18 * fem),
+                          margin: EdgeInsets.fromLTRB(
+                              1 * fem, 0 * fem, 0 * fem, 18 * fem),
                           width: 893 * fem,
                           height: 114 * ffem,
                           decoration: BoxDecoration(
@@ -199,7 +210,8 @@ class Cadastro extends StatelessWidget {
                               enabledBorder: InputBorder.none,
                               errorBorder: InputBorder.none,
                               disabledBorder: InputBorder.none,
-                              contentPadding: EdgeInsets.fromLTRB(25 * fem, 0 * fem, 0 * fem, 15 * fem),
+                              contentPadding: EdgeInsets.fromLTRB(
+                                  25 * fem, 0 * fem, 0 * fem, 15 * fem),
                               hintText: 'Senha',
                               hintStyle: TextStyle(color: Color(0xff000000)),
                             ),
@@ -213,7 +225,8 @@ class Cadastro extends StatelessWidget {
                         ),
                         Container(
                           // autogroup7lg7Nwy (4s1qfgtAvLocVATaFD7LG7)
-                          margin: EdgeInsets.fromLTRB(1 * fem, 0 * fem, 0 * fem, 18 * fem),
+                          margin: EdgeInsets.fromLTRB(
+                              1 * fem, 0 * fem, 0 * fem, 18 * fem),
                           width: 893 * fem,
                           height: 114 * ffem,
                           decoration: BoxDecoration(
@@ -228,7 +241,8 @@ class Cadastro extends StatelessWidget {
                               enabledBorder: InputBorder.none,
                               errorBorder: InputBorder.none,
                               disabledBorder: InputBorder.none,
-                              contentPadding: EdgeInsets.fromLTRB(25 * fem, 0 * fem, 0 * fem, 15 * fem),
+                              contentPadding: EdgeInsets.fromLTRB(
+                                  25 * fem, 0 * fem, 0 * fem, 15 * fem),
                               hintText: 'Confirmar Senha',
                               hintStyle: TextStyle(color: Color(0xff000000)),
                             ),
@@ -242,10 +256,14 @@ class Cadastro extends StatelessWidget {
                         ),
                         Container(
                           // autogrouppj3mEZd (4s1r1BKhKimMKmevGXpj3M)
-                          margin: EdgeInsets.fromLTRB(1 * fem, 10 * fem, 0 * fem, 0 * fem),
+                          margin: EdgeInsets.fromLTRB(
+                              1 * fem, 10 * fem, 0 * fem, 0 * fem),
                           child: TextButton(
                             onPressed: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => const HomePage()));
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => const HomePage()));
                             },
                             style: TextButton.styleFrom(
                               padding: EdgeInsets.zero,
@@ -277,7 +295,8 @@ class Cadastro extends StatelessWidget {
                   ),
                   Container(
                     // aosecadastrarvocconcordacomnos (109:44)
-                    margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 150 * fem),
+                    margin: EdgeInsets.fromLTRB(
+                        0 * fem, 0 * fem, 0 * fem, 150 * fem),
                     constraints: BoxConstraints(
                       maxWidth: 649 * fem,
                     ),
@@ -343,10 +362,12 @@ class Cadastro extends StatelessWidget {
                   Center(
                     // jatemumacontaentrarBn7 (108:38)
                     child: Container(
-                      margin: EdgeInsets.fromLTRB(1 * fem, 0 * fem, 0 * fem, 0 * fem),
+                      margin: EdgeInsets.fromLTRB(
+                          1 * fem, 0 * fem, 0 * fem, 0 * fem),
                       child: TextButton(
                         onPressed: () {
-                          Navigator.of(context).push(MaterialPageRoute(builder: (context) => Login()));
+                          Navigator.of(context).push(
+                              MaterialPageRoute(builder: (context) => Login()));
                         },
                         style: TextButton.styleFrom(
                           padding: EdgeInsets.zero,

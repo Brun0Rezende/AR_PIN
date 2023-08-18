@@ -2,19 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'HomePage.dart';
 import 'Login.dart';
+import 'UserProfile.dart';
 
 void main() {
   runApp(
     MaterialApp(
       home: Directionality(
         textDirection: TextDirection.ltr,
-        child: Login(),
+        child: Home(),
       ),
     ),
   );
 }
 
-class Login extends StatelessWidget {
+class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,13 +24,24 @@ class Login extends StatelessWidget {
         backgroundColor: Colors.white,
         actions: <Widget>[
           IconButton(
-              onPressed: () {}, icon: Image.asset('assets/images/user.png')),
+              onPressed: () {
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => UserProfile()));
+              },
+              icon: Image.asset('assets/images/user.png')),
         ],
         title: IconButton(
-            onPressed: () {}, icon: Image.asset('assets/images/led.png')),
+            onPressed: () {
+              Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (context) => HomePage()));
+            },
+            icon: Image.asset('assets/images/led.png')),
         centerTitle: true,
         leading: IconButton(
-            onPressed: () {}, icon: Image.asset('assets/images/arrow.png')),
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            icon: Image.asset('assets/images/arrow.png')),
       ),
       body: LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
